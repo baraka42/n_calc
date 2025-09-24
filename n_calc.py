@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.graph_objects as go  
-
+import matplotlib.pyplot as plt
 # --- NOVA ABA: SIMULAÇÃO DE WINRATE COM PLOTLY ---
 with tab_winrate_sim:
     st.markdown("##### 🎯 Simulador de Taxa de Vitória")
